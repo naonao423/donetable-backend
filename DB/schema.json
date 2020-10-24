@@ -1,0 +1,18 @@
+{
+	"TableName" : "DoneTable",
+	"KeySchema" : [
+		{
+			"KeyType" : "HASH",
+			"AttributeName" : "tid"
+		}
+	],
+	"AttributeDefinitions" : [
+		{	
+			"AttributeName" : "tid",
+			"AttributeType" : "S"
+		}
+	],
+	"ProvisionedThroughput":{
+		"WriteCapacityUnits" : 10,
+		"ReadCapacityUnits" : 10}
+}

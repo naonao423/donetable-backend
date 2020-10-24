@@ -1,0 +1,22 @@
+{
+	"Events":[
+		{
+			"PutRequest":{
+			"Item":{
+				"uid":{
+					"S":"setting"
+				},
+				"sub":{
+					"S":"Programing;English;Study;Reading;Meditation;Stretch;Nap;Others"
+				},
+				"begin_time":{
+					"S":"100;100;100;100;100;100;100;100"
+				},
+				"duriation":{
+					"S":""
+				}
+			}
+			}
+		}
+	]
+}

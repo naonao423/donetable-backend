@@ -1,0 +1,7 @@
+{
+	"TableName":"DoneTable",
+	"ProvisionedThroughput":{
+		"ReadCapacityUnits":10,
+		"WriteCapacityUnits":10
+	}
+}
