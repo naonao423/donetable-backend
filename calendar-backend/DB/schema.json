@@ -1,0 +1,19 @@
+{
+	"TableName" : "Events",
+	"KeySchema" : [
+		{
+			"KeyType" : "HASH",
+			"AttributeName" : "uid"
+		}
+	],
+	"AttributeDefinitions" : [
+		{	
+			"AttributeName" : "uid",
+			"AttributeType" : "S"
+		}
+	],
+	"ProvisionedThroughput":{
+		"WriteCapacityUnits" : 1,
+		"ReadCapacityUnits" : 1
+	}
+}

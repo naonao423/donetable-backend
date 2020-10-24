@@ -1,0 +1,7 @@
+{
+	"TableName":"Events",
+	"ProvisionedThroughput":{
+		"ReadCapacityUnits":10,
+		"WriteCapacityUnits":10
+	}
+}

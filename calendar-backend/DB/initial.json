@@ -1,0 +1,22 @@
+{
+	"Events":[
+			{
+			"PutRequest":{
+				"Item":{
+					"uid":{
+						"S":"0EE140B6-788C-4651-B46C-CC917C3B2A63"
+					},
+					"sub":{
+						"S":"Programming"
+					},
+					"begin_time":{
+						"S":"2020-08-21T15:49:00+09:00"
+					},
+					"duration":{
+						"S":"0:55:00"
+					}
+				}
+			}
+		}
+	]
+}

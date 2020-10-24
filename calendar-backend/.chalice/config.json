@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "app_name": "calendar-backend",
+  "api_gateway_stage": "api",
+  "stages": {
+    "dev": {
+			"environment_variables":{
+				"DB_ENDPOINT":"http://127.0.0.1:8001",
+				"DB_TABLE_NAME":"Eventtest"
+			},
+			"lambda_memory_size": 1024,
+			"lambda_timeout":120
+		},
+    "prod": {
+			"autogen_policy":false,
+			"environment_variables":{
+				"DB_TABLE_NAME":"Events",
+				"DB_TABLE_NAME2":"DoneTable"
+			},
+			"lambda_memory_size": 3000,
+			"lambda_timeout":120
+    },
+		"test1":{
+			"autogen_policy":false,
+			"environment_variables":{
+				"DB_TABLE_NAME":"Eventtest"
+			},
+			"lambda_memory_size": 3000,
+			"lambda_timeout":120
+		}
+  }
+}
